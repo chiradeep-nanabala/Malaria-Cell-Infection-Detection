@@ -1,1 +1,8 @@
 # Malaria-Cell-Infection-Detection
+
+
+Malaria, a life-threatening disease transmitted by infected Anopheles mosquitoes, poses a significant global health threat. Timely and precise diagnosis is crucial in managing the disease's impact. This project focuses on leveraging image analysis to detect malaria parasites within red blood cells. The study utilizes the "Malaria Cell Images Dataset," comprising infected and uninfected cell images, aiding in disease identification and control efforts.
+
+The dataset, sourced from the NIH, comprises 27,558 images categorized into infected and uninfected red blood cells. Investigating the integration of autoencoders into CNN models for image classification, this research demonstrates the impact on classification accuracy. The findings highlight a notable improvement in classification performance when an autoencoder is integrated into the CNN's early layers. The CNN equipped with an autoencoder achieved a significantly higher test accuracy of 66%, surpassing the 58% accuracy of the CNN without an autoencoder. This suggests that integrating autoencoders enhances the model's ability to accurately classify malaria-infected and uninfected red blood cells.
+
+However, the effectiveness of autoencoders may vary across datasets and domains. The study underscores the need for further exploration and experimentation to comprehend the broader applicability of autoencoders in diverse image classification tasks. Overall, this research contributes insights into the role of autoencoders in augmenting CNN performance for image classification, emphasizing their potential in enhancing model accuracy and robustness, particularly in disease detection and diagnostics.
